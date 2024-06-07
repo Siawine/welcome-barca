@@ -1,0 +1,333 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+header {
+    background-color: #004d98;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    margin-left: 20px;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ff0000;
+    color: rgb(62, 62, 62);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+/* Add styles for player details */
+.player-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.player-details .player-card {
+    width: 60%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.player-details .player-card img {
+    width: 50%;
+    height: auto;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+header img {
+    height: 50px;
+    cursor: pointer;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+}
+
+h1 {
+    color: #800000;
+}
+
+.player-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.player-card {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.player-card img {
+    width: 80%;
+    height: auto;
+}
+
+.player-card a {
+    display: block;
+    margin-top: 5px;
+    color: #800000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.player-card a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #003366;
+    color: rgb(252, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header img {
+    height: 50px;
+    cursor: pointer;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+}
+
+h1 {
+    color: #800000;
+}
+
+.history-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.history-card {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.history-card img {
+    width: 80%;
+    height: auto;
+}
+
+.history-card a {
+    display: block;
+    margin-top: 5px;
+    color: #800000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.history-card a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004d98;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+    cursor: pointer;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #004d98;
+}
+
+.player-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.player-card {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.player-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.player-card a {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #004d98;
+    text-decoration: none;
+}
+
+.player-card a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
+}
+
